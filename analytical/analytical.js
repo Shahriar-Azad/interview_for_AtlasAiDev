@@ -5,7 +5,10 @@
 // which is not strictly equal to 0.3.
 // but if we do math.floor(0.1+0.2) then the strictly equal to 0.3 will true..
 
-
+Result: 0
+Answer: false — due to floating point precision errors in JavaScript.
+number cutt bacause of false calculation  0.1 + 0.2 = 0.30000000000000004 but you've wrritten "0.33333333"
+Here you can get some number like 1 or 2
 
 
 // Medium level
@@ -16,6 +19,7 @@
 // as it supposed to be happen..but as we used setTimeout function and put 1 second 
 // timeline therefor it wont print 0,1,2
 // instead it would print 3 3 3...
+Result: 10
 
 
 // Hard level
@@ -24,5 +28,7 @@
 // here var a = b = 5;
 // therefore a = 5 and b = 5 as 5 is a integer number therefore 
 // its typeOf b would be Number if we do console.log(typeOf b)
+
+Result: 15
 
 
