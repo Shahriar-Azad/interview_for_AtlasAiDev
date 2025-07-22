@@ -21,8 +21,8 @@
 
 // evenOrOdd()
 
-Result: 4 out of 5 
-Note: you did not pass the paramiter of the function
+// Result: 4 out of 5 
+// Note: you did not pass the paramiter of the function
 
 
 
@@ -43,8 +43,8 @@ Note: you did not pass the paramiter of the function
 //     }
 // }    
 
-Result: 3 out of 10
-Note : it's looping unlimited times and saying "Its not a palindrome"
+// Result: 3 out of 10
+// Note : it's looping unlimited times and saying "Its not a palindrome"
 
 // let i = 0;
 
@@ -57,7 +57,7 @@ Note : it's looping unlimited times and saying "Its not a palindrome"
 
 // counter()
 
-Note: I don't know why did you commit this.
+// Note: I don't know why did you commit this.
 
 
 
@@ -75,7 +75,7 @@ Note: I don't know why did you commit this.
 // const [count, setCount] = useState(0)
 
 // c = 0
-Note: you're assinging value on a variable before declaring it. It will give error.
+// Note: you're assinging value on a variable before declaring it. It will give error.
 
 
 // const increaseBtn = document.querySelector('button');
@@ -83,7 +83,7 @@ Note: you're assinging value on a variable before declaring it. It will give err
 // function increase(){
 
 //     increaseBtn
-Note: what is the functionality of this function?
+// Note: what is the functionality of this function?
 
 // }
 
@@ -138,21 +138,21 @@ Note: what is the functionality of this function?
 //     })
 // }
 
-result: 3 out of 15
+// result: 3 out of 15
 
-Note: what you've written it's like a javascript function not a react function component
-Question and Answer was like this
-14.	Build a simple React counter using ``.
-function Counter() {
-  const [count, setCount] = useState(0);
-  return (
-    <div>
-      <button onClick={() => setCount(count - 1)}>-</button>
-      <span>{count}</span>
-      <button onClick={() => setCount(count + 1)}>+</button>
-    </div>
-  );
-}
+// Note: what you've written it's like a javascript function not a react function component
+// Question and Answer was like this
+// 14.	Build a simple React counter using ``.
+// function Counter() {
+//   const [count, setCount] = useState(0);
+//   return (
+//     <div>
+//       <button onClick={() => setCount(count - 1)}>-</button>
+//       <span>{count}</span>
+//       <button onClick={() => setCount(count + 1)}>+</button>
+//     </div>
+//   );
+// }
 
 
 

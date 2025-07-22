@@ -5,10 +5,10 @@
 // which is not strictly equal to 0.3.
 // but if we do math.floor(0.1+0.2) then the strictly equal to 0.3 will true..
 
-Result: 0
-Answer: false — due to floating point precision errors in JavaScript.
-number cutt bacause of false calculation  0.1 + 0.2 = 0.30000000000000004 but you've wrritten "0.33333333"
-Here you can get some number like 1 or 2
+// Result: 0
+// Answer: false — due to floating point precision errors in JavaScript.
+// number cutt bacause of false calculation  0.1 + 0.2 = 0.30000000000000004 but you've wrritten "0.33333333"
+// Here you can get some number like 1 or 2
 
 
 // Medium level
@@ -29,6 +29,6 @@ Result: 10
 // therefore a = 5 and b = 5 as 5 is a integer number therefore 
 // its typeOf b would be Number if we do console.log(typeOf b)
 
-Result: 15
+// Result: 15
 
 
